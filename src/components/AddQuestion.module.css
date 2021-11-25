@@ -1,0 +1,61 @@
+.addQuestion {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  max-width: 90%;
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 2px 2px 15px rgb(179, 178, 178);
+}
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.header span:first-of-type {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.main {
+  margin-top: 10px;
+  padding: 5%;
+}
+.input_question {
+  width: 95%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  background-color: rgba(189, 185, 185, 0.308);
+  border-bottom: 2px solid rgb(80, 78, 78);
+}
+.main select:first-of-type {
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgba(189, 185, 185, 0.308);
+  border-bottom: 2px solid rgb(80, 78, 78);
+}
+.main option {
+  padding: 100px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.submit {
+  background-color: rgb(5, 87, 5);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(0, 128, 0, 0.521);
+}

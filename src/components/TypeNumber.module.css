@@ -1,0 +1,62 @@
+.wrapper {
+  background-color: #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.input {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+.input_sm {
+  width: 80px;
+  margin-left: 20px;
+}
+.button {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media (max-width: 648px) {
+  .inputContainer {
+    flex-direction: column;
+  }
+  .input_sm,
+  .inputContainer input {
+    margin-left: 0;
+    width: 80%;
+    margin-top: 5px;
+  }
+}
+
+.fab {
+  display: inline-block;
+  border-radius: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 15px;
+  font-size: 20px;
+}
+/* .button span {
+  border: 5px solid green;
+  color: #008000;
+} */
+
+.redButton {
+  border: 5px solid red;
+  color: red;
+  margin-left: 10px;
+}
